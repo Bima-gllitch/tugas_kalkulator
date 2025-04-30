@@ -24,9 +24,26 @@ function kalkulator($nomer1, $nomer2, $operator) {
     } else {
     }
 }
-$nomer1 = 10;
-$nomer2 = 5;
+$nomer1 = 20;
+$nomer2 = 2;
+$operator = '/';
+$hasil = kalkulator($nomer1, $nomer2, $operator);
+echo "Hasil dari $nomer1 $operator $nomer2 = $hasil". "<br>";
+
+$nomer1 = 5;
+$nomer2 = 2;
+$operator = '-';
+$hasil = kalkulator($nomer1, $nomer2, $operator);
+echo "Hasil dari $nomer1 $operator $nomer2 = $hasil"."<br>";
+
+$nomer1 = 2;
+$nomer2 = 8;
 $operator = '+';
 $hasil = kalkulator($nomer1, $nomer2, $operator);
-echo "Hasil dari $nomer1 $operator $nomer2 = $hasil";
+echo "Hasil dari $nomer1 $operator $nomer2 = $hasil"."<br>";
+$nomer1 = 2;
+$nomer2 = 21;
+$operator = '*';
+$hasil = kalkulator($nomer1, $nomer2, $operator);
+echo "Hasil dari $nomer1 $operator $nomer2 = $hasil"."<br>";
 ?>
